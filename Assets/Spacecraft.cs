@@ -32,4 +32,8 @@ public class Spacecraft : MonoBehaviour
             rb.AddForce(new Vector2(xacc * Time.deltaTime, yacc * Time.deltaTime));
         }
     }
+
+    void OnCollisionEnter() {
+        
+    }
 }
