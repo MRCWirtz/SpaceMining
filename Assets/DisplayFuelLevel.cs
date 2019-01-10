@@ -11,6 +11,6 @@ public class DisplayFuelLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        slider.value = spacecraft.getFuelLevel();
+        slider.value = spacecraft.GetFuelLevel();
     }
 }
